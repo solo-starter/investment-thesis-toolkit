@@ -1,0 +1,21 @@
+{
+  "name": "korean-stock-portfolio",
+  "version": "1.0.0",
+  "description": "한국 주식 포트폴리오를 분기별로 분석·관리하는 스킬. 시장 데이터 수집, 12M Forward EPS 기반 4단계 시나리오 적정가 산정, 6시트 엑셀 산출, 차기 실적 발표일 캘린더 등록을 일관된 방법론으로 수행한다.",
+  "author": {
+    "name": "thinkerskku",
+    "email": "thinkerskku@gmail.com"
+  },
+  "homepage": "https://github.com/solo-starter/investment-thesis-toolkit",
+  "keywords": [
+    "stocks",
+    "korean-stocks",
+    "portfolio",
+    "valuation",
+    "investment",
+    "fair-value",
+    "earnings",
+    "etf"
+  ],
+  "category": "finance"
+}

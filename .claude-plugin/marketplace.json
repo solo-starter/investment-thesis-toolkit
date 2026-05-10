@@ -1,0 +1,39 @@
+{
+  "name": "investment-thesis-toolkit",
+  "owner": {
+    "name": "thinkerskku",
+    "email": "thinkerskku@gmail.com"
+  },
+  "description": "투자 분석·의사결정 워크플로우를 자동화하는 Claude 스킬 모음",
+  "version": "1.0.0",
+  "plugins": [
+    {
+      "name": "korean-stock-portfolio",
+      "source": "./korean-stock-portfolio",
+      "description": "한국 주식 포트폴리오를 분기별로 분석·관리. 시장 데이터 수집 → 12M Forward EPS 4단계 시나리오(보수/기준/낙관/AI 재평가) 적정가 산정 → 6시트 엑셀 산출 → 차기 실적 발표일 구글 캘린더 등록까지 일관 수행. 5개 슬래시 명령어(/적정가산정, /실적분석, /실적프리뷰, /논리점검, /ETF분석) 지원.",
+      "version": "1.0.0",
+      "author": {
+        "name": "thinkerskku",
+        "email": "thinkerskku@gmail.com"
+      },
+      "category": "finance",
+      "keywords": [
+        "stocks",
+        "korean-stocks",
+        "portfolio",
+        "valuation",
+        "investment",
+        "fair-value",
+        "earnings",
+        "etf"
+      ],
+      "commands": [
+        "/적정가산정",
+        "/실적분석",
+        "/실적프리뷰",
+        "/논리점검",
+        "/ETF분석"
+      ]
+    }
+  ]
+}
